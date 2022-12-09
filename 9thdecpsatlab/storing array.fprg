@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PRADEESH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-09 09:52:02 AM"/>
+        <attribute name="created" value="UFJBREVFU0g7TEFQVE9QLUpIU0dJS1RUOzIwMjItMTItMDk7MDk6MjI6MDEgQU07Mjk3NA=="/>
+        <attribute name="edited" value="UFJBREVFU0g7TEFQVE9QLUpIU0dJS1RUOzIwMjItMTItMDk7MDk6NTI6MDIgQU07MjszMDg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="value" type="Integer" array="True" size="10"/>
+            <output expression="&quot;value 1&quot;" newline="True"/>
+            <input variable="value[0]"/>
+            <output expression="&quot;value 2&quot;" newline="True"/>
+            <input variable="value[1]"/>
+            <output expression="&quot;value 3&quot;" newline="True"/>
+            <input variable="value[2]"/>
+            <output expression="&quot;value 4&quot;" newline="True"/>
+            <input variable="value[3]"/>
+            <output expression="&quot;value 5&quot;" newline="True"/>
+            <input variable="value[4]"/>
+            <output expression="&quot;value 6&quot;" newline="True"/>
+            <input variable="value[5]"/>
+            <output expression="&quot;value 7&quot;" newline="True"/>
+            <input variable="value[6]"/>
+            <output expression="&quot;value 8&quot;" newline="True"/>
+            <input variable="value[7]"/>
+            <output expression="&quot;value 9&quot;" newline="True"/>
+            <input variable="value[8]"/>
+            <output expression="&quot;value 10&quot;" newline="True"/>
+            <input variable="value[9]"/>
+            <assign variable="x" expression="0"/>
+            <for variable="x" start="0" end="9" direction="inc" step="1">
+                <output expression="value[x]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
